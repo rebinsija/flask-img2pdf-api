@@ -47,4 +47,4 @@ def get_file(path):
 
 
 if __name__ == "__main__":
-	app.run(debug=True,port=2390)
+	app.run(debug=True,port=2390) # tambah host=0.0.0.0 jika deploy ke docker
