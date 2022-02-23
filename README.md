@@ -1,1 +1,3 @@
-# flask img2pdf REST API"
+# flask img2pdf REST API
+
+- Projek kecil-kecilan buat belajar API
