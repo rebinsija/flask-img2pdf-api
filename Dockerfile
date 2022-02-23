@@ -1,5 +1,6 @@
-FROM python:3.6
+FROM python:3.6.3
 ADD . /py_code
 WORKDIR /code
-RUN pip install -r req_lib.txt
+RUN python -m pip install -r /py_code/req_lib.txt
+EXPOSE 2390
 CMD python app.py

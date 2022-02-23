@@ -6,7 +6,7 @@ from PIL import Image
 import json, os
 
 UPLOAD_FOLDER = 'folder_file'
-HOSTNAME = 'http://localhost:2390/'
+HOSTNAME = 'http://localhost:2390/' #change with your own domain
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
