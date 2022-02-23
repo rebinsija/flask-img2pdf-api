@@ -1,0 +1,4 @@
+folder_file/*
+venv/*
+
+!folder_file/.gitkeep
