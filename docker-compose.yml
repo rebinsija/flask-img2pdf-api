@@ -5,4 +5,4 @@ services:
     ports:
       - "2390:2390"
     volumes:
-      - .:/code
+      - .:/py_code
